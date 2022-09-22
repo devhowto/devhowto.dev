@@ -1,0 +1,13 @@
+#
+# .gitignore
+#
+
+##
+# Damn node_modules everywhere...
+#
+node_modules
+
+##
+# Antora built files.
+#
+build
