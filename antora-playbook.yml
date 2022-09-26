@@ -1,12 +1,13 @@
 site:
   title: Dev How To
-  start_page: component-b::index.adoc
+  start_page: command-line-shell-script::index.adoc
 content:
   sources:
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
+  - url: https://gitlab.com/devhowto/command-line-shell-script
     branches: HEAD
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [v2.0, v1.0]
+    start_path: docs
+  - url: https://gitlab.com/devhowto/algorithms-and-data-structure
+    branches: HEAD
     start_path: docs
 ui:
   bundle:
