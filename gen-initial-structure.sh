@@ -4,6 +4,10 @@
 # This script generates a default, initial Antora component
 # docs structure.
 #
+# Run this command with:
+#
+#   $ bash ./gen-initial-structure.sh
+#
 
 printf '\n%s\n\n' 'Creating initial structure.'
 
