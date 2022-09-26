@@ -6,6 +6,9 @@ content:
   - url: ../algdsts
     branches: HEAD
     start_path: docs
+  - url: ../cmdline-shell-script
+    branches: HEAD
+    start_path: docs
 ui:
   bundle:
     url: ../antora-ui/build/ui-bundle.zip
