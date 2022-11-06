@@ -4,12 +4,12 @@ site:
 content:
   sources:
   - url: https://gitlab.com/devhowto/command-line-shell-script
-    branches: HEAD
+    branches: main
     start_path: docs
-  - url: https://gitlab.com/devhowto/algorithms-and-data-structure
-    branches: HEAD
-    start_path: docs
+  # - url: https://gitlab.com/devhowto/algorithms-and-data-structure
+  #   branches: HEAD
+  #   start_path: docs
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://gitlab.com/devhowto/devhowto-antora-ui/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
