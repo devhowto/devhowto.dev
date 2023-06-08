@@ -3,15 +3,15 @@ site:
   start_page: algdsts::index.adoc
 content:
   sources:
-  - url: ../algdsts
+  - url: ../cmdline-shell-script
     branches: HEAD
     start_path: docs
-  - url: ../cmdline-shell-script
+  - url: ../algdsts
     branches: HEAD
     start_path: docs
 ui:
   bundle:
-    url: ../antora-ui/build/ui-bundle.zip
+    url: ../devhowto-antora-ui/build/ui-bundle.zip
     snapshot: true
   supplemental_files: ./supplemental-ui
 
