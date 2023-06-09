@@ -8,8 +8,8 @@ const { reload: livereload } =
 const { series, src, watch } = require("gulp");
 const yaml = require("js-yaml");
 
-const playbookFilename = "site-workspace.yml";
-const playbook = yaml.safeLoad(fs.readFileSync(playbookFilename, "utf8"));
+const playbookFilename = "local-antora-playbook.yml";
+const playbook = yaml.load(fs.readFileSync(playbookFilename, "utf8"));
 const outputDir = (playbook.output || {}).dir || "./build/site";
 const serverConfig = {
   name: "Preview Site",
@@ -17,7 +17,9 @@ const serverConfig = {
   port: 5000,
   root: outputDir,
 };
+
 const antoraArgs = ["--playbook", playbookFilename];
+
 const watchPatterns = playbook.content.sources
   .filter((source) => !source.url.includes(":"))
   .reduce((accum, source) => {
@@ -26,6 +28,7 @@ const watchPatterns = playbook.content.sources
         source.start_path ? source.start_path + "/" : ""
       }antora.yml`
     );
+
     accum.push(
       `${source.url}/${
         source.start_path ? source.start_path + "/" : ""
