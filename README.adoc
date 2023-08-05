@@ -1,4 +1,14 @@
 = Dev How To :: Docs
 
+== Developing Locally
+
+[source,shell-session]
+----
+$ npm install
+$ antora generate --fetch ./local-antora-playbook.yml
+----
+
+== Projects
+
 * link:https://devhowto.gitlab.io/docs/command-line-shell-script/0.0.1/[Dev How To :: Command Line and Shell Script]
 * link:https://devhowto.gitlab.io/docs/command-line-shell-script/0.0.1/sed/intro.html[Sed, The Stream Editor]
