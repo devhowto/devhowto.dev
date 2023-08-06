@@ -6,6 +6,9 @@ content:
   - url: https://gitlab.com/devhowto/command-line-shell-script
     branches: main
     start_path: docs
+  - url: https://gitlab.com/devhowto/purescript
+    branches: main
+    start_path: docs
   # - url: https://gitlab.com/devhowto/algorithms-and-data-structure
   #   branches: HEAD
   #   start_path: docs
