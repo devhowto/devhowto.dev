@@ -6,6 +6,9 @@ content:
   - url: ../command-line-shell-script
     branches: HEAD
     start_path: docs
+  - url: ../haskell
+    branches: HEAD
+    start_path: docs
   - url: ../purescript
     branches: HEAD
     start_path: docs

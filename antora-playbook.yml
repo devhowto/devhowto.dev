@@ -6,12 +6,12 @@ content:
   - url: https://gitlab.com/devhowto/command-line-shell-script
     branches: main
     start_path: docs
+  - url: https://gitlab.com/devhowto/haskell
+    branches: main
+    start_path: docs
   - url: https://gitlab.com/devhowto/purescript
     branches: main
     start_path: docs
-  # - url: https://gitlab.com/devhowto/algorithms-and-data-structure
-  #   branches: HEAD
-  #   start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/devhowto/devhowto-antora-ui/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
