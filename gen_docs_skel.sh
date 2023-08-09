@@ -68,7 +68,7 @@ cat <<EOF > "$PWD/$dir/docs/modules/ROOT/nav.adoc"
 -- Links to Asciidoctor files inside $dir/docs/modules/ROOT/pages
 --
 
-xref:intro.adoc[]
+* xref:index.adoc[]
 EOF
 
 tree -CF "$dir"
