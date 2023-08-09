@@ -41,7 +41,7 @@ dir="$1"
 
 printf '\nCreating initial structure for ‘%s’.\n\n' "$dir"
 
-mkdir -p "$dir"docs/modules/ROOT/{examples,images,pages}
+mkdir -p "$dir"/docs/modules/ROOT/{examples,images,pages}
 
 cat <<EOF > "$PWD/$dir/docs/antora.yml"
 name: algdsts
@@ -63,7 +63,7 @@ cat <<EOF > "$PWD/$dir/docs/modules/ROOT/pages/index.adoc"
 Intro to my stupendous project.
 EOF
 
-cat <<EOF > "$PWD/$dir/modules/ROOT/nav.adoc"
+cat <<EOF > "$PWD/$dir/docs/modules/ROOT/nav.adoc"
 --
 -- Links to Asciidoctor files inside $dir/docs/modules/ROOT/pages
 --
