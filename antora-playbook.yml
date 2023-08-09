@@ -6,6 +6,9 @@ content:
   - url: https://gitlab.com/devhowto/command-line-shell-script
     branches: main
     start_path: docs
+  - url: https://gitlab.com/devhowto/C
+    branches: main
+    start_path: docs
   - url: https://gitlab.com/devhowto/haskell
     branches: main
     start_path: docs
