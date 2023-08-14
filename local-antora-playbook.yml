@@ -13,6 +13,8 @@ content:
     branches: HEAD
     start_path: docs
   - url: ../purescript
+    branches: HEAD
+    start_path: docs
 ui:
   bundle:
     url: ../ui/build/ui-bundle.zip
