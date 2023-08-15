@@ -15,6 +15,9 @@ content:
   - url: ../purescript
     branches: HEAD
     start_path: docs
+  - url: ../algds
+    branches: HEAD
+    start_path: docs
 ui:
   bundle:
     url: ../ui/build/ui-bundle.zip

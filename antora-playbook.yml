@@ -15,6 +15,9 @@ content:
   - url: https://gitlab.com/devhowto/purescript
     branches: main
     start_path: docs
+  - url: https://gitlab.com/devhowto/algorithms-and-data-structures
+    branches: main
+    start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/devhowto/devhowto-antora-ui/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
