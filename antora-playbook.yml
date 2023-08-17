@@ -15,6 +15,9 @@ content:
   - url: https://gitlab.com/devhowto/purescript
     branches: main
     start_path: docs
+  - url: https://gitlab.com/devhowto/javascript
+    branches: main
+    start_path: docs
   - url: https://gitlab.com/devhowto/algorithms-and-data-structures
     branches: main
     start_path: docs
