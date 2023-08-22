@@ -1,5 +1,5 @@
 site:
-  title: Dev How To :)
+  title: Dev How To
   start_page: command-line-shell-script::index.adoc
 content:
   sources:
@@ -25,3 +25,9 @@ ui:
   bundle:
     url: https://gitlab.com/devhowto/devhowto-antora-ui/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    stem: '@'
+    table-caption: false
