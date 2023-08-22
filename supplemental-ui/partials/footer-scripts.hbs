@@ -2,6 +2,7 @@
 <script async src="{{uiRootPath}}/js/vendor/highlight.js"></script>
 {{#with (resolvePage page.relativeSrcPath model=false)}}
 {{#unless (eq asciidoc.attributes.stem undefined)}}
+<p>NOT UNDEF</p>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   messageStyle: "none",
