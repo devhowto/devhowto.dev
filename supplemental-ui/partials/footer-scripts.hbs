@@ -3,6 +3,8 @@
 {{#with (resolvePage page.relativeSrcPath model=false)}}
 {{#unless (eq asciidoc.attributes.stem undefined)}}
 <p style="display: none">NOT UNDEF</p>
+{{/unless}}
+
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   messageStyle: "none",
@@ -11,6 +13,7 @@ MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "none" } }
 });
 </script>
+
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
-{{/unless}}
+
 {{/with}}
