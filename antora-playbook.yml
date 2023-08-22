@@ -25,6 +25,7 @@ ui:
   bundle:
     url: https://gitlab.com/devhowto/devhowto-antora-ui/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  supplemental_files: ./supplemental-ui
 
 asciidoc:
   attributes:
